@@ -1,0 +1,20 @@
+{
+  "name": "test_tech_dougs",
+  "version": "1.0.0",
+  "description": "module de controle et validation d'opérations bancaires ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js"
+  },
+  "author": "gdumora",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.19",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "axios": "^0.26.0"
+  }
+}
